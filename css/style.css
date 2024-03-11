@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap');
+:root{
+	--color-general: #FFFFFF;
+	--fondo-header: #1B666B;
+	--color-amarillo: #FFA948;
+	--color-verde: #023E48;
+	--color-hover-amarillo: ;
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: var(--color-general);
+	line-height: 1.8;
+}
+header{
+	background-color: var(--fondo-header);
+	color: var(--color-general);
+	padding: 20px 0;
+}
+
+header img{
+	width: 200px;
+}
+header h6{
+	font-weight: 600;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: -50px;
+}
+
+
+#hero{
+	background-color: var(--fondo-header);
+	padding-bottom: 100px;
+	padding-top: 50px;
+		
+	}
+
+#hero h1{
+	font-weight: bold;
+	font-size: 100px;
+	color: #FFFFFF;
+}
+
+.section{
+	padding: 5% 0;
+}
+
+p{
+	font-size: 16px;
+	color: #666666;
+	text-align:left;
+	font-weight: 200;
+}
+
+
+.btn-sol{
+  background-color: var(--color-amarillo);
+  color: #FFFFFF;
+  padding: 15px 32px;
+  border: 1px solid #FFA948;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 50px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+#hero .btn-dark:hover{
+	background-color: var(--color-verde);
+	border: 1px solid  #023E48;
+}
+
+
+
+#elegirnos{
+	color: white;
+	background-color: #023E48;
+	padding: 90px;
+	
+}
+#elegirnos h2{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+#elegirnos h6{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 90px;
+	font-weight: 200px;
+
+}
+
+#elegirnos .info-elegirnos{
+	background-color: white;
+	color: #858585;
+	border-radius: 30px;
+	text-align: left;
+	padding: 90px 20px 0px 20px;	
+	box-shadow: 0px 0px 50px 6px #001e26;
+}
+
+.icons{
+	font-size: 100px;
+	color: var(--color-amarillo); 
+	text-align: center;
+}
+
+#elegirnos h4{
+	color: #FFA948;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+
+#elegirnos p{
+	font-size: 16px;
+	color: #666666;
+	text-align:left;
+	font-weight: 200;
+	margin-left: 20px;
+
+}
+
+#elegirnos .btn-sol:hover{
+	border: 1px solid  #023E48;
+	color:#023E48; 
+}
+
+#testimonios{
+   color: white;
+	background-color: #FFFFFF;
+	padding: 90px;
+	
+}
+
+
+
+
+#testimonios h3{
+	font-size: 30px;
+	font-weight:200;
+	color:#666666;
+	text-align: left;
+	margin-bottom: 60px;
+	
+	
+}
+#testimonios h2{
+	font-size: 60px;
+	font-weight: 600;
+	color:#023E48;
+	text-align: left;
+	margin-bottom: 160px;
+
+}
+	
+#testimonios h4{
+	font-size: 36px;
+	font-weight:500;
+	color:#023E48;
+	text-align: center;
+	padding-bottom: 30px;
+	
+}
+
+#testimonios p{
+	font-size: 16px;
+	color: #666666;
+	text-align:left;
+	font-weight: 200;
+	padding: 10% 10% 40% 10%;
+	
+}
+#testimonios .client {
+	background-color: white;
+	color: #858585;
+	border-radius: 30px;
+	margin-top: 30px;
+	text-align: left;
+	padding: 100px 20px 0px 20px;	
+	box-shadow: 0px 0px 50px 6px #6666;
+		
+}
+.star{
+	font-size: 30px;
+	padding-left: 10%;
+	color: var(--color-amarillo);
+}
+
+
+
+/*button stuff para el subscribe*/
+
+#subscribe{
+	background-color: #023E48;
+	padding: 100px;
+}
+
+#subscribe .titulo{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 60px;
+	margin-bottom: 20px
+}
+
+ #subscribe p{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	
+}
+#subscribe form{
+	display: block;
+	margin-top: 70px;
+	margin-left: 100px;
+	margin-right: -100px
+
+
+}
+
+.btn-sub{ 
+	margin-top: 8px;
+	background-color: var(--color-amarillo);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  font-weight: 200px;
+  cursor: pointer;
+  border-radius: 40px;
+	
+	
+}
+
+
+
+/*Definiciones de reglas pagina contact us*/
+
+#hero-title{
+	background-color:var(--fondo-header) ;
+	background-size: cover;
+	background-position: top center;
+	padding:10% 0;
+	text-align: center;
+	color:#fff;
+}
+
+#hero-title h1{
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.icon-contacto{
+	font-size: 80px;
+	background-color: #FFFFFF;
+	color: var(--color-amarillo);
+	width: 130px;
+	height:130px;
+	text-align: center;
+	
+}
+#contacto h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+	color:  #023E48;
+}
+#contacto{
+	margin-bottom: 60px;
+}
+
+
+#contacto h4{
+	font-weight: 600;
+	font-size: 80px;
+	color: var(--color-verde);
+	
+
+}
+#contacto h2{ 
+font-size: 40px;
+	font-weight: 600;
+	color: var(--color-verde);
+}
+
+.formulario{
+	box-shadow: 0px 0px 30px 5px #ddd;
+	border-radius: 10px;
+	padding: 40px 25px;
+	
+}
+
+
+/*About us*/
+
+#about h2{ 
+font-size: 40px;
+	font-weight: 600;
+	color: var(--color-amarillo);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#about img{
+	width: 400px;
+	border-top-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	margin-top: 120px;
+}
+
+.icon-about{
+	font-size: 120px;
+	color: var(--color-amarillo); 
+	margin-top: 100px;
+	
+}
+
+#about h6{
+	font-size: 14px;
+	font-weight: 600;
+	color:  #383838;
+}
+
+
+#statistics{
+	background-color: #023E48;
+	padding: 100px;
+}
+
+#statistics h4{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	
+}

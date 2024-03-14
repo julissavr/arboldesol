@@ -5,10 +5,11 @@
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-<title>Arbol de Sol</title>
+<title>Home Page - Arbol de Sol</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
 <link href="css/style.css" rel="Stylesheet">
 </head>	
 	
@@ -37,16 +38,22 @@
 					  <a class="nav-link" href="aboutus.html">About Us</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="#">Packages</a>
+					  <a class="nav-link" href="#">Offers</a>
 					</li>
 					   <li class="nav-item">
-					  <a class="nav-link" href="Destinations.html">Destinations</a>
+					  <a class="nav-link" href="rooms.html">Rooms</a>
 					</li>
 				   <li class="nav-item">
 					  <a class="nav-link" href="contactus.html">Contact Us</a>
 					</li>
 
 				  </ul>
+					
+					<ul class="navbar-nav ms-auto">
+		  <li class="nav-item">
+          <a class="nav-link btn btn-nav" href="rooms.html">Book Now</a>
+        </li>
+		</ul>
 
 
 				</div>
@@ -59,7 +66,7 @@
 	
 		<section id="hero">
 			<div class="container">
-				<h1>Where good <br>booking meets <br> great experiences.</h1>
+				<h1>Stay once,<br> carry memories <br>forever</h1>
 
 					<button class="btn btn-dark btn-sol">Explore</button>
 			</div>
@@ -74,7 +81,7 @@
   			<h6>We have the best services </h6>
 			
 			<div class="row">
-				<article class="col-lg-4 col-sm-6 col-12">
+				<article class="col-lg-4 col-sm-6 col-12 ">
 				  <div class="info-elegirnos">
 						<i class="las la-comment-dollar icons"></i>
 						<h4>Exceptional Value</h4>
@@ -92,7 +99,7 @@
 					</div>
 				</article>
 				
-				<article class="col-lg-4 col-sm-6 col-12">
+				<article class="col-lg-4 col-sm-6 col-12 offset-lg-0 offset-sm-3">
 					<div class="info-elegirnos">
 					<i class="las la-user-friends icons"></i>
 					<h4>Unmatched Hospitality</h4>
@@ -105,6 +112,55 @@
 	  </div>
 	
 	</section>
+	
+	
+	
+	<section id="gallery">
+		<div class="container">
+			<h2 class="text-center">Gallery</h2>
+			<p class="text-center">  Our hotel is ideally situated in the heart of Honduras nature, offering easy access to beautuful vies and tourist attractions. Whether you're here for business or leisure, you'll find everything you need just steps away.</p>
+			
+			<div class="owl-carousel">
+				<article class="pictures">
+					<img src="img/gallery2.jpg" alt="pic1" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery3.jpg" alt="pic2" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery4.jpg" alt="pic3" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery5.jpg" alt="pic4" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery6.jpg" alt="pic5" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery7.jpg" alt="pic6" class="img-fluid">
+				</article>
+				
+				<article class="pictures">
+					<img src="img/gallery8.jpg" alt="pic7" class="img-fluid">
+				</article>
+				
+			
+			
+			</div>
+		
+		</div>
+	
+	
+	
+	</section>
+	
+	
+	
 	
 	
 			<section id="testimonios">
@@ -130,7 +186,7 @@
 					</div>
 				</article>
 					
-					<article class="col-lg-4 col-sm-6 col-12">
+					<article class="col-lg-4 col-sm-6 col-12 offset-lg-0 offset-sm-3">
 					<div class="client">
 					<h4>Client 3</h4>
 						<i class="las la-star star"></i>
@@ -179,6 +235,36 @@
 	
 	<script src="js/jquery.min.js"> </script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script>
+
+		$(document).ready(function(){
+
+		  $(".owl-carousel").owlCarousel({
+					items: 1,
+					loop: true,
+					autoplay: true,
+					smartSpeed: 800,
+					margin: 30,
+					center: true,
+					dots: true,
+					responsive: {
+						0: {
+							items: 1
+						},
+						480: {
+							items: 2
+						},
+						992: {
+							items: 2
+						}
+					}
+				});
+
+		});
+
+	</script>
 	
 </body>
 	

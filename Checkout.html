@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon.png" > 
+	
+<title>Check Out - Arbol de Sol</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="css/style.css" rel="Stylesheet">
+	
+	<meta name="Description" content="Pagina de habitaciones de arbol de sol Honduras"> 
+	<meta name="Keywords" content="hotel, resort, honduras, habitaciones, habitaciones clasicas, suites, reservaciones">
+</head>
+
+<body>
+	
+	<header>
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="img/logoTrue.png" alt="logo" class="img-fluid width=100">
+						</a>
+
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				 <i class="las la-bars"></i>
+
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+					  <a class="nav-link"  href="index.html">Home</a>
+					</li>
+					<li class="nav-item  ">
+					  <a class="nav-link" href="aboutus.html">About Us</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="offers.html">Offers</a>
+					</li>
+					   <li class="nav-item active">
+					  <a class="nav-link" href="rooms.html">Rooms</a>
+					</li>
+				   <li class="nav-item">
+					  <a class="nav-link" href="contactus.html">Contact Us</a>
+					</li>
+
+				  </ul>
+					
+					
+					<ul class="navbar-nav ms-auto">
+		  <li class="nav-item">
+          <a class="nav-link btn btn-nav" href="rooms.html">Book Now</a>
+        </li>
+		</ul>
+
+
+				</div>
+			  </div>
+			</nav>	
+					</div>
+
+			</header>
+	
+	
+	<section id="checkout"> 
+		<div class="container">
+						<div class="row">
+						
+							
+	
+				<div class="col-lg-12 col-sm-12 col-12 formulario mt-5">
+        <h4 class="mb-3">Billing address</h4>
+        <form class="needs-validation was-validated" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United States</option>
+				  <option>Honduras</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+    
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Save this information for next time</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Payment</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+              <label class="form-check-label" for="credit">Credit card</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="debit">Debit card</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Name on card</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+              <small class="text-muted">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-sol btn-lg"  href="thankyou.html" type="submit">Checkout</button>
+        </form>
+      </div>
+							</div>
+			</div>
+			
+	</section>
+	
+	
+	
+			  <footer>
+		  <div class="container">
+			<div class="row">
+			  <div class="col-lg-6 col-sm-6 col-12 mt-2 offset-sm-1">
+				<img src="img/losads-01.png" alt="logoads" width="180" class="img-fluid width=200">
+				<p>Reserved Copyright. 2024</p>  
+			  </div>
+
+			  <div class="col-lg-3 col-sm-6 col-12 offset-sm-1">
+				<h3>Contact Us</h3>
+				<p><i class="las la-map-marker icon-footer"></i> Tegucigalpa, Honduras</p>
+				<p><i class="las la-phone-alt icon-footer"></i> +504 2256-7485</p>
+				<p><i class="las la-envelope icon-footer"></i> info@arboldesol.com</p>  
+			  </div>
+
+			  <div class="col-lg-3 col-sm-6 col-12 offset-sm-1">
+				<h3>Follow Us</h3>
+				<i class="lab la-facebook icon-footer"></i>
+				<i class="lab la-twitter icon-footer"></i> 
+				<i class="lab la-youtube icon-footer"></i>
+				<i class="lab la-instagram "></i>
+			  </div>
+
+			</div>
+		  </div>
+		</footer>
+	
+	
+	
+	
+	<script src="js/jquery.min.js"> </script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
